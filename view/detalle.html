@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OpenData Gipuzkoa - detalle dataset</title>
+  <link href="https://www.gipuzkoairekia.eus/o/DOGGipuzkoaIrekia-theme/images/favicon.ico?q=0.5715011957642653" rel="icon" type="image/x-icon">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+</head>
+
+<body>
+  <div class="container">
+    <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
+        <!-- <img src="https://www.gipuzkoairekia.eus/o/DOGGipuzkoaIrekia-theme/images/logo-GI-white.png" alt="Gipuzkoa Irekia"> -->
+        <img src="https://www.gipuzkoairekia.eus/image/layout_set_logo?img_id=629836&t=1705896135083" alt="Gipuzkoa Irekia" style="height: 60px;">
+      </a>
+
+      <ul class="nav nav-pills">
+        <li class="nav-item"><a href="../index.html" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="buscador.html" class="nav-link active">Buscador</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Mapa</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+      </ul>
+    </header>
+    <main>
+        <div class="col-md-9 col-12 contenido detalle">
+            <div class="taglib-header">                
+                    <span class="header-back-to"> 
+                        <a class="volver" href="buscador.html" title="Atrás"> 
+                            <img src="../img/volver.png">
+                            <span >Volver</span>
+                        </a>
+                    </span>                
+                <h1 class="header-title" id="titulo"></h1>
+            </div>
+            <h2>Descripción</h2>
+            <p id="descripcion"></p>                        
+            <h2>Archivos disponibles</h2>
+            <div class="caja">
+                <div id="archivos"></div>
+            </div>
+            <div id="datos">
+                <dl>
+                    <dt class="columna1">Fecha actualización</dt>
+                    <dd class="columna1" id="fecha-actualizacion"></dd>
+                    <dt class="columna1">Tema</dt>
+                    <dd class="columna1" id="categoria"></dd>   
+                    <dt class="columna1">Versión</dt>
+                    <dd class="columna1" id="version"></dd>
+                    <dt class="columna2">Tipo de Licencia</dt>
+                    <dd class="columna2" id="licencia"></dd>
+                </dl>
+
+                <dl id="autor">
+                    <dt>Autor</dt>
+                    <dd id="autorNombre"></dd>
+                    <dt>Email del autor</dt>
+                    <dd id="emailAutor"></dd>
+                </dl>
+                
+            </div>
+            <h2>
+                Información adicional
+            </h2>
+            <div class="caja">
+                <dl class="info">
+                    <dt>Fecha de creación</dt>
+                    <dd id="fechaCreacion"></dd>                    
+                    <dt>Frecuencia de actualización</dt>
+                    <dd id="frecuencia"></dd>                    
+                    <dt>Email soporte</dt>
+                    <dd id="emailSoporte"></dd>
+                    <dt>Identificador</dt>
+                    <dd id="idDataset"></dd>
+                </dl>
+            </div>
+            <div id="etiquetas">
+                <p>Etiquetas</p>
+                <ul id="listaEtiquetas"></ul>
+            </div>
+        </div>
+        <div class="modal fade bd-example-modal-lg" data-backdrop="static" data-keyboard="false" tabindex="-1">
+            <div class="modal-dialog modal-sm">
+                <div class="modal-content" style="width: 48px">
+                    <span class="fa fa-spinner fa-spin fa-3x"></span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
+      <div class="col-md-4 d-flex align-items-center">
+        <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+          <!-- <svg class="bi" width="30" height="24"><use xlink:href="#bootstrap"></use></svg> -->
+        </a>
+        <span class="mb-3 mb-md-0 text-muted">© 2024 Idarragas, Inc</span>
+    </div>
+    </footer>
+  </div>
+ 
+  <script src="../js/lib/jquery-3.7.1.js"></script>
+  <script src="../js/detalle.js"></script> 
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

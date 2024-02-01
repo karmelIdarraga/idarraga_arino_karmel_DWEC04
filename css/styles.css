@@ -1,0 +1,195 @@
+.detalle .caja {
+    background: #f2f2f2;
+    border: solid 1px #e7e9e8;
+    overflow: hidden;
+    padding: 10px 25px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px
+}
+
+.info dt {
+    color: #b7472a;
+    font: bold 12px;
+    float: left;
+    line-height: 20px;
+    clear: left;
+    width: 180px
+}
+
+.info dd {
+    float: left;
+    color: #646567;
+    
+}
+
+.detalle p {
+    font: 12px;
+    color: #646567;
+    padding-bottom: 10px;
+    line-height: 16px;
+    margin-bottom: 15px !important
+}
+
+#datos .columna2 img {
+    float: left;
+    margin-top: 0;
+    margin-left: 0
+}
+
+#datos dl {
+    margin-left: 130px;
+    margin-bottom: 0;
+    overflow: hidden
+}
+
+#datos dl dt {
+    color: #b7472a;
+    font: bold 12px;
+    float: left;
+    line-height: 20px
+}
+
+#datos dl dd {
+    float: left;
+   
+    color: #646567
+}
+
+#datos dt.columna1 {
+    width: 180px;
+    clear: left
+}
+
+#datos dd.columna1 {
+    width: 27%
+}
+
+#datos dt.columna2 {
+    width: 180px;
+    margin-right: 5px
+}
+
+#datos dd.columna2 {
+    display: table-cell;
+    position: relative;
+    width: 26%
+}
+
+#etiquetas {
+    font: 12px Tahoma,Geneva,sans-serif;
+    margin-top: 30px
+}
+
+#etiquetas p {
+    font-weight: bold;
+    background: #b7472a;
+    border: solid 1px #b7472a;
+    color: #fefeff;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 8px 10px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px
+}
+
+#etiquetas ul {
+    display: table-cell;
+    padding: 0 10px;
+    width: 100%
+}
+
+#plantilla #etiquetas p,#plantilla #etiquetas ul {
+    color: #fff;
+    line-height: inherit
+}
+
+#etiquetas ul li:before {
+    content: "";
+    background: url(/img/tag.png) no-repeat;
+    height: 31px;
+    width: 22px;
+    position: absolute;
+    left: -20px;
+    top: -1px
+}
+
+#etiquetas ul li {
+    display: inline-block;
+    color: #646567;
+    background: #f1f2f2;
+    border: solid 1px #e7e8e8;
+    padding: 0 10px 0 5px;
+    line-height: 28px;
+    margin-left: 22px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    position: relative
+}
+
+.bd-example-modal-lg .modal-dialog{
+    display: table;
+    position: relative;
+    margin: 0 auto;
+    top: calc(50% - 24px);
+}
+
+.bd-example-modal-lg .modal-dialog .modal-content{
+    background-color: transparent;
+    border: none;
+}
+
+#archivos div .tipo {
+    font: bold 11px Tahoma,Geneva,sans-serif;
+    text-align: center;
+    float: left;
+    line-height: 20px;
+    background-color: #b7472a;
+    color: #fefeff;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    position: absolute;
+    width: 65px
+}
+
+#archivos div .nombreRecurso {
+    margin-left: 75px;
+}
+
+#archivos div a {
+    color: #2f3033;
+    position: relative;
+    float: left;
+}
+
+#datos{
+    margin-top: 2%;
+}
+
+#datos dl#autor,#datos dl#coleccion {
+    border-top: dotted 1px #c3c7cf;
+    padding-top: 5px;
+    margin-top: 5px
+}
+
+#datos dl#autor dt {
+    width: 180px
+}
+
+#datos dl#autor dd {
+    float: none;
+    margin-left: 130px
+}
+
+.volver{
+    color: #646567;
+    text-decoration: none;
+}
+
+.leaflet-container {
+    height: 400px;
+    width: 600px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
